@@ -1,0 +1,114 @@
+/* =========================================
+   4. [Overview Section]
+    ========================================= */
+.data-bar {
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.data-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.data01, .data02, .data03 {
+    width: 33%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+.data02 {
+    border-left: 5px double rgb(149, 149, 149);
+    border-right: 5px double rgb(149, 149, 149);
+}
+
+#drive_count, #distance_count, #hour_count {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/****** TEXT ******/
+.overview_text {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text_content h1 {
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    color: rgb(23, 23, 137);
+    margin-bottom: 20px;
+}
+
+.text_content p {
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+/****** VIDEO ******/
+.overview_video {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.overview_video iframe {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overview-line {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/****** MODEL ******/
+.overview_model {
+    width: 100%;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 120px;
+}
+
+.model_content {
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.model_content h1 {
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    color: rgb(23, 23, 137);
+    margin-bottom: 20px;
+}
+
+.model_content p {
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+}

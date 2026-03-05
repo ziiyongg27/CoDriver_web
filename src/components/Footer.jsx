@@ -34,13 +34,13 @@ function Footer() {
 
                 {/* 链接列表 1 */}
                 <div className="footer-top-div">
-                    <p>{t("footer.services.title")}</p>
+                    <p>{t("footer.ride.title")}</p>
                     <ul className="footer-top-list">
-                        <li><a href="#">{t("footer.services.ride")}</a></li>
-                        <li><a href="#">{t("footer.services.airport")}</a></li>
-                        <li><a href="#">{t("footer.services.delivery")}</a></li>
-                        <li><a href="#">{t("footer.services.pets")}</a></li>
-                        <li><a href="#">{t("footer.services.more")}</a></li>
+                        <li><a href="#">{t("footer.ride.ride")}</a></li>
+                        <li><a href="#">{t("footer.ride.airport")}</a></li>
+                        <li><a href="#">{t("footer.ride.delivery")}</a></li>
+                        <li><a href="#">{t("footer.ride.pets")}</a></li>
+                        <li><a href="#">{t("footer.ride.more")}</a></li>
                     </ul>
                 </div>
 

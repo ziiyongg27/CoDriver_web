@@ -1,6 +1,7 @@
 import React from 'react';
+import "./Overview.css";
 
-function ServicesOverview() {
+function RideOverview() {
   return (
     <>
       {/* 3. Data Bar */}
@@ -52,4 +53,4 @@ function ServicesOverview() {
   );
 }
 
-export default ServicesOverview;
+export default RideOverview;

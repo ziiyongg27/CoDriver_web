@@ -1,7 +1,7 @@
 {
 
-    "header.services": "Services",
-    "header.drivers": "Drivers",
+    "header.ride": "Ride",
+    "header.drivers": "Driver",
     "header.newsroom": "Newsroom",
     "header.about": "About Us",
     "header.more": "More",
@@ -16,12 +16,12 @@
     "footer.terms": "Terms of Service",
     "footer.code": "Code of Conduct",
 
-    "footer.services.title": "Services",
-    "footer.services.ride": "Ride Booking",
-    "footer.services.airport": "Airport Transfer",
-    "footer.services.delivery": "Goods Delivery",
-    "footer.services.pets": "Pet Taxi",
-    "footer.services.more": "More Services",    
+    "footer.ride.title": "Services",
+    "footer.ride.ride": "Ride Booking",
+    "footer.ride.airport": "Airport Transfer",
+    "footer.ride.delivery": "Goods Delivery",
+    "footer.ride.pets": "Pet Taxi",
+    "footer.ride.more": "More Services",    
 
     "footer.drivers.title": "Drivers",
     "footer.drivers.become": "Become a Driver",

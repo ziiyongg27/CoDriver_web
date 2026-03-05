@@ -1,10 +1,11 @@
 import React from "react";
-import Navbar  from '../components/Navbar';
-import Footer from '../components/Footer';  
+import Navbar  from '../../components/Navbar';
+import Footer from '../../components/Footer';  
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import './Services.css';
+import './Ride.css';
+import FloatingMsgBtn from "../../components/MessageCenter/FloatingMsgBtn";
 
-function Services() {
+function Ride() {
     const location = useLocation(); // 获取当前网址路径
 
     // 辅助函数：判断当前是哪个 Tab，决定是否加蓝色边框
@@ -22,18 +23,18 @@ function Services() {
             <Navbar />
 
             <div className="hero-topbar">
-                <h1>Services</h1>
+                <h1>Book a Ride</h1>
             </div>
 
             <div className="menu-bar">
                 <div className="menu-bar-content">
-                    <Link id="overview" to="/services" style={getActiveStyle('/services')}><div className="overview-div">
+                    <Link id="overview" to="/ride" style={getActiveStyle('/ride')}><div className="overview-div">
                         <h3>Overview</h3>
                     </div></Link>
 
                     <p className="menu-bar-line">|</p>
 
-                    <Link id="bookdriver" to="/services/book" style={getActiveStyle('/services/book')}><div className="bookDriver-div">
+                    <Link id="bookdriver" to="/ride/book" style={getActiveStyle('/ride/book')}><div className="bookDriver-div">
                         <h3>Book A Driver</h3>
                     </div></Link>
                 </div>
@@ -41,10 +42,13 @@ function Services() {
 
             <Outlet />  {/* 渲染子路由内容 */}
 
+            {/* Floating Message Button */}
+            <FloatingMsgBtn />
+
             {/* Bottom Footer */}
             <Footer/>
         </div>
     );
 }
 
-export default Services;
+export default Ride;

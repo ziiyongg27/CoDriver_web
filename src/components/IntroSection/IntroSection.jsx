@@ -1,4 +1,5 @@
 import React from 'react';
+import "./IntroSection.css";
 
 function IntroSection() {
   return (

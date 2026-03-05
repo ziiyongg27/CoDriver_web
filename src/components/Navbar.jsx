@@ -36,7 +36,7 @@ function Navbar() {
         {/* 4. 中间导航链接 */}
         <nav className="nav-bar">
             <ul className="nav_links">
-                <Link to="/services" reloadDocument><li>{t("header.services")}</li></Link>
+                <Link to="/ride" reloadDocument><li>{t("header.ride")}</li></Link>
                 <Link to="/drivers"><li>{t("header.drivers")}</li></Link>
                 <Link to="/news"><li>{t("header.newsroom")}</li></Link>
                 <Link to="/about"><li>{t("header.about")}</li></Link>

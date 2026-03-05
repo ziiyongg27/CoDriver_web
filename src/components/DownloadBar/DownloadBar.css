@@ -1,0 +1,32 @@
+/* =========================================
+    下载条 (Download Bar)
+   ========================================= */
+.app-download-bar-div {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background: linear-gradient(to right, white 50%, rgba(41, 41, 209, 0.911) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .3s ease-out;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.app-download-bar-div:hover {
+  background-position: left bottom ;
+  border-bottom: 1px solid rgba(41, 41, 209, 0.911);
+  color: rgba(41, 41, 209, 0.911);
+}
+
+.app-download-bar-p {
+  position:relative;
+  top: 35%;
+  left: 10%;
+  height: fit-content;
+}

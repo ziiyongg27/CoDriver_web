@@ -1,0 +1,127 @@
+/* =========================================
+   Floating Message Button
+   ========================================= */
+
+.floating-msg-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--primary-blue);
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.message-icon {
+    width: 60%;
+    height: 100%;
+    color: rgb(37, 37, 231);
+}
+
+.floating-msg-btn:hover {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.floating-msg-btn:hover .message-icon {
+    color: #fff;
+}
+
+
+/* Unread Badge */
+.unread-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   Message Panel
+   ========================================= */
+
+.msg-panel {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 0.25s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.msg-panel-header {
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.close-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.msg-panel-content {
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.msg-item {
+    padding: 15px 0px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.msg-item p {
+    margin-bottom: 3px;
+}
+
+.msg-item small {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: var(--text-grey);
+}
+
+
+

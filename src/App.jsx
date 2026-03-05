@@ -5,9 +5,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // 引入刚才创建的两个页面
 import ScrollToTop from './components/ScrolltoTop'; 
 import Home from './pages/Home';
-import Services from './pages/Services';
-import BookDriver from './components/Service_BookDriver';
-import ServicesOverview from './components/Service_Overview';
+import Ride from './pages/Ride/Ride';
+import BookDriver from './pages/Ride/BookDriver/BookDriver';
+import RideOverview from './pages/Ride/Overview/Overview';
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
         {/* 2. 定义路由规则 */}
         <Route path="/" element={<Home />} />           {/* 首页 */}
 
-        <Route path="/services" element={<Services />}>
-          <Route index element={<ServicesOverview />} />   
+        <Route path="/ride" element={<Ride />}>
+          <Route index element={<RideOverview />} />   
           <Route path="book" element={<BookDriver />} />    
         </Route> 
         
@@ -29,6 +29,7 @@ function App() {
         */}
       </Routes>
     </BrowserRouter>
+
   );
 }
 

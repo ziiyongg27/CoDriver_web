@@ -1,6 +1,6 @@
 {
 
-    "header.services": "服务",
+    "header.ride": "服务",
     "header.drivers": "司机",
     "header.newsroom": "咨询中心",
     "header.about": "关于我们",
@@ -16,12 +16,12 @@
     "footer.terms": "服务条款",
     "footer.code": "行为守则",
 
-    "footer.services.title": "服务",
-    "footer.services.ride": "预约乘车",
-    "footer.services.airport": "机场接送",
-    "footer.services.delivery": "货物配送",
-    "footer.services.pets": "宠物专车",
-    "footer.services.more": "更多服务",    
+    "footer.ride.title": "服务",
+    "footer.ride.ride": "预约乘车",
+    "footer.ride.airport": "机场接送",
+    "footer.ride.delivery": "货物配送",
+    "footer.ride.pets": "宠物专车",
+    "footer.ride.more": "更多服务",    
 
     "footer.drivers.title": "司机",
     "footer.drivers.become": "成为司机",

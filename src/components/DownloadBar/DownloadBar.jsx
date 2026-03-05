@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./DownloadBar.css";
 
 function DownloadBar() {
   const [isHovered, setIsHovered] = useState(false);

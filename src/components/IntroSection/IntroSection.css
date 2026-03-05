@@ -1,0 +1,48 @@
+/* =========================================
+   视频介绍 (Intro Video)
+   ========================================= */
+.main_content {
+  width: 100%;
+  height: max-content;
+}
+
+.maincontent-below-container {
+  position: relative;
+  width: 100%;
+}
+
+.introvideo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 145px 0;
+  background-color: #fff;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.introvideo-div {
+  width: 800px;
+}
+
+.intro-word-div {
+  width: 30%;
+  height: max-content;
+  margin-left: 35px;
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+.intro-word-div h2 {
+  width: 85%;
+  color: rgb(23, 23, 137);
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.intro-word-div p {
+  color: black;
+  font-size: 18px;
+  line-height: 25px;
+}

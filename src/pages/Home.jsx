@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar  from '../components/Navbar';
 import Footer from '../components/Footer';
-import HeroBanner from '../components/HeroBanner';
-import DownloadBar from '../components/DownloadBar';
-import IntroSection from '../components/IntroSection';
-import NewsSlider from '../components/NewsSlider';
-import ServiceDashboard from '../components/ServiceDashboard';
+import HeroBanner from '../components/HeroBanner/HeroBanner';
+import DownloadBar from '../components/DownloadBar/DownloadBar';
+import IntroSection from '../components/IntroSection/IntroSection';
+import NewsSlider from '../components/NewsSlider/NewsSlider';
+import ServiceDashboard from '../components/ServiceDashboard/ServiceDashboard';
+import FloatingMsgBtn from '../components/MessageCenter/FloatingMsgBtn';
+import MessagePanel from '../components/MessageCenter/MessagePanel';
 
 function Home() {
   return (
@@ -28,6 +30,12 @@ function Home() {
       {/* Service Dashboard Section */}
       <ServiceDashboard />
 
+
+      {/* Floating Message Button */}
+      <FloatingMsgBtn />
+
+      {/* Message Panel (conditionally rendered by FloatingMsgBtn) */}
+      
       {/* Bottom Footer */}
       <Footer />
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import "./ServiceDashboard.css";
 
 const containerVariants = {
     hidden: { opacity: 0 },

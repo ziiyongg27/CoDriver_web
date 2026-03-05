@@ -1,0 +1,29 @@
+/* =========================================
+   顶部大图 (Hero Container)
+   ========================================= */
+.header-container {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.header-img-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  animation: slide 25s infinite;
+}   
+
+.header-img-container img {
+  width: 100%;
+  min-height: 600px;
+  object-fit: fill;
+}
+
+@keyframes slide {
+  0%, 25% { transform: translateX(0); }
+  35%, 60% { transform: translateX(-100%); }
+  70%, 100% { transform: translateX(-200%); }
+}

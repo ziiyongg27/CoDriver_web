@@ -1,0 +1,125 @@
+/* =========================================
+    服务板块 (Service Sections)
+   ========================================= */
+.service-dashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding: 70px 70px;
+  background-color: #ffffff;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.service-dashboard h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(33, 33, 186);
+  margin-bottom: 5px;
+}
+
+.services-grid {
+  display: grid;
+  width: 100%;
+}
+
+.icon-wrapper {
+  flex: 0 0 150px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-wrapper .dashboard-icon {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.word-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.4;
+}
+
+.service-card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 160px;
+  margin: 0px auto;
+  padding: 15px;
+  background-color:#ffffff;
+  color: var(--text-dark);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.service-card:hover {
+  color: var(--primary-blue);
+}
+
+.service-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-blue);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.service-card:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.services-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color:#ffffff;
+}
+
+.services-all a {
+  position: relative;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.services-all a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-blue);
+  transition: all 0.3s ease-out;
+  transform: translateX(-50%);
+}
+
+.services-all a:hover {
+  color: var(--primary-blue);
+}
+
+.services-all a:hover::after {
+  width: 100%;
+}
+
+.dashboard-icon {
+    width: 150px;          
+    height: auto;
+    fill: var(--primary-blue);        
+    transition: fill 0.3s ease;
+    margin-bottom: 15px;   
+}
