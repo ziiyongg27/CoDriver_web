@@ -56,6 +56,7 @@ The platform is designed to support multiple transportation needs:
 ---
 
 ## System Architecture (Planned)
+```
 User
 │
 │ Web / Mobile App
@@ -67,29 +68,26 @@ Backend API (Node.js + Express)
 │
 ▼
 Database (MongoDB / PostgreSQL)
+```
 
 ---
 
 ## Project Structure
 
 Example structure of the current web platform:
+```
 codriver-platform
-│
 ├── public
-│ ├── image
-│
+├── image
 ├── src
-│ ├── components
-│ ├── assets
-│ ├── pages
-│ ├── locales
-│ └── main.jsx
-│ └── App.jsx
-│
+│   ├── components
+│   ├── assets
+│   ├── pages
+│   └── ...
 ├── index.html
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## Development Status
