@@ -131,9 +131,12 @@ codriver-platform
 ## Screenshots
 
 *(To be added as development progresses)*
-/<img width="1902" height="862" alt="landing-page" src="https://github.com/user-attachments/assets/b9f08906-2091-4e39-8297-e4d85d4a263e" />
-/<img width="1897" height="867" alt="homepage-service-section" src="https://github.com/user-attachments/assets/bfcc6c08-42a6-462a-8322-8c8892a329f3" />
-/<img width="1905" height="868" alt="footer" src="https://github.com/user-attachments/assets/319b9809-ef46-4efc-ac2d-7914b80dd30a" />
+/landing-page
+<img width="1902" height="862" alt="landing-page" src="https://github.com/user-attachments/assets/b9f08906-2091-4e39-8297-e4d85d4a263e" />
+/homepage-service-section
+<img width="1897" height="867" alt="homepage-service-section" src="https://github.com/user-attachments/assets/bfcc6c08-42a6-462a-8322-8c8892a329f3" />
+/footer-design
+<img width="1905" height="868" alt="footer-design" src="https://github.com/user-attachments/assets/319b9809-ef46-4efc-ac2d-7914b80dd30a" />
 
 ---
 
