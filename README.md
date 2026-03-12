@@ -1,16 +1,159 @@
-# React + Vite
+# CoDriver Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **driver service platform** designed to provide flexible transportation solutions across Malaysia.  
 
-Currently, two official plugins are available:
+CoDriver integrates multiple driver-related services into a single ecosystem, allowing users to access ride services, designated drivers, airport transfers, and logistics transportation through one platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Vision
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Urban transportation is becoming increasingly complex due to:
 
-## Expanding the ESLint configuration
+- Heavy traffic conditions
+- Frequent rain affecting mobility
+- Growing demand for flexible transportation services
+- Lack of integrated driver service platforms
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CoDriver aims to build a **unified driver ecosystem** that connects users with different types of driver services efficiently.
+
+---
+
+## Core Services
+
+The platform is designed to support multiple transportation needs:
+
+- Ride-hailing services  
+- Airport transfers  
+- Designated driving (alcohol / fatigue situations)  
+- Moving & cargo transportation (Van / Lorry)  
+- Pet transportation  
+- Medical transportation  
+- Vehicle pick-up & drop-off  
+- Premium private driver services (hourly / full day)
+
+---
+
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+### Planned Backend
+- Node.js
+- Express.js
+
+### Database (Planned)
+- MongoDB or PostgreSQL
+
+### Mobile App (Planned)
+- React Native
+
+---
+
+## System Architecture (Planned)
+User
+│
+│ Web / Mobile App
+▼
+Frontend (React / React Native)
+│
+▼
+Backend API (Node.js + Express)
+│
+▼
+Database (MongoDB / PostgreSQL)
+
+---
+
+## Project Structure
+
+Example structure of the current web platform:
+codriver-platform
+│
+├── public
+│ ├── image
+│
+├── src
+│ ├── components
+│ ├── assets
+│ ├── pages
+│ ├── locales
+│ └── main.jsx
+│ └── App.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+
+---
+
+## Development Status
+
+**Stage:** Early Development
+
+**Completed:**
+
+- Platform concept design
+- Frontend interface structure
+- Landing page UI
+- Component-based architecture using React
+
+**In Progress:**
+
+- Interactive UI components
+- Platform feature integration
+- Service interface design
+
+**Planned:**
+
+- Backend API development
+- Booking system
+- Authentication system
+- Mobile application
+
+---
+
+## Roadmap
+
+**Phase 1:** Platform UI prototype  
+**Phase 2:** Backend API & database integration  
+**Phase 3:** Service booking system  
+**Phase 4:** Driver management system  
+**Phase 5:** Mobile application (React Native)
+
+---
+
+## Screenshots
+
+*(To be added as development progresses)*
+/<img width="1902" height="862" alt="landing-page" src="https://github.com/user-attachments/assets/b9f08906-2091-4e39-8297-e4d85d4a263e" />
+/<img width="1897" height="867" alt="homepage-service-section" src="https://github.com/user-attachments/assets/bfcc6c08-42a6-462a-8322-8c8892a329f3" />
+/<img width="1905" height="868" alt="footer" src="https://github.com/user-attachments/assets/319b9809-ef46-4efc-ac2d-7914b80dd30a" />
+
+---
+
+## Author
+
+**Michael Lee**  
+
+Computer Science Student (AI Field)  
+
+Interested in:
+
+- Software Development
+- Frontend Engineering
+- Technology Innovation
+
+---
+
+## License
+
+This project is currently under development.
+
+
+
